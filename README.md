@@ -1,5 +1,8 @@
 Fork of [node-ffi-napi/ref-union-di](https://github.com/node-ffi-napi/ref-union-di). Changes:
 * Include patches from [alphacep/ref-union-di](https://github.com/alphacep/ref-union-di)
+* Convert to ESM module
+* Use rollup to provide CommonJS module
+* Bundle types from `@types/ref-union-di@1.0.0`
 
 ref-union-di
 ============
