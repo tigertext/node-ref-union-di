@@ -1,3 +1,6 @@
+Fork of [node-ffi-napi/ref-union-di](https://github.com/node-ffi-napi/ref-union-di). Changes:
+* Include patches from [alphacep/ref-union-di](https://github.com/alphacep/ref-union-di)
+
 ref-union-di
 ============
 ### Create ABI-compliant "[union][]" instances on top of Buffers
@@ -18,7 +21,7 @@ Installation
 Install with `npm`:
 
 ``` bash
-$ npm install ref-union-di
+$ npm install @tigerconnect/ref-union-di
 ```
 
 
@@ -27,7 +30,7 @@ Examples
 
 ``` js
 var ref = require('ref')
-var Union = require('ref-union-di')(ref)
+var Union = require('@tigerconnect/ref-union-di')(ref)
 
 // a couple typedefs
 var int = ref.types.int

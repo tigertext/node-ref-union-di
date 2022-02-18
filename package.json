@@ -1,5 +1,5 @@
 {
-  "name": "ref-union-di",
+  "name": "@tigerconnect/ref-union-di",
   "description": "Create ABI-compliant \"union\" instances on top of Buffers",
   "keywords": [
     "union",
@@ -9,14 +9,14 @@
     "c++",
     "ffi"
   ],
-  "version": "1.0.1",
+  "version": "1.0.1-tc0",
   "author": "Anna Henningsen <anna@addaleax.net>",
   "contributors": [
     "Nathan Rajlich <nathan@tootallnate.net>"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-ffi-napi/ref-union-di.git"
+    "url": "git://github.com/tigertext/ref-union-di.git"
   },
   "main": "./lib/union.js",
   "license": "MIT",
