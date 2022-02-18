@@ -2,7 +2,7 @@
 var assert = require('assert')
   , ref = require('ref-napi')
   , Struct = require('ref-struct-di')(ref)
-  , Union = require('../')(ref)
+  , Union = require('../dist/union.cjs.js').UnionDi(ref)
   , bindings = require('node-gyp-build')(__dirname);
 
 describe('Union', function () {

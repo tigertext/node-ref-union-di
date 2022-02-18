@@ -2,6 +2,7 @@ Fork of [node-ffi-napi/ref-union-di](https://github.com/node-ffi-napi/ref-union-
 * Include patches from [alphacep/ref-union-di](https://github.com/alphacep/ref-union-di)
 * Convert to ESM module
 * Use rollup to provide CommonJS module
+* Change interface to `require('@tigerconnect/ref-union-di').UnionDi(ref)`
 * Bundle types from `@types/ref-union-di@1.0.0`
 
 ref-union-di
@@ -33,7 +34,7 @@ Examples
 
 ``` js
 var ref = require('ref')
-var Union = require('@tigerconnect/ref-union-di')(ref)
+var Union = require('@tigerconnect/ref-union-di').UnionDi(ref)
 
 // a couple typedefs
 var int = ref.types.int
