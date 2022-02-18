@@ -16,4 +16,5 @@ npm-debug.log
 .nyc_output/
 coverage
 build
+dist
 node-addon-api
