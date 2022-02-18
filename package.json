@@ -24,16 +24,19 @@
   "es2015": "./dist/union.esm.js",
   "main": "./dist/union.cjs.js",
   "module": "./dist/union.js",
+  "types": "./dist/union.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "run-s clean build:dist build:module build:rollup",
+    "build": "run-s clean build:dist build:module build:rollup build:types",
     "build:dist": "shx mkdir -p dist",
     "build:module": "shx cp -f lib/union.js dist",
     "build:rollup": "rollup -c rollup.config.js",
+    "build:types": "shx cp -f lib/union.d.ts dist",
     "clean": "shx rm -fr dist",
     "test": "node-gyp rebuild --directory test && mocha --expose-gc --reporter spec"
   },
   "dependencies": {
+    "@types/ref-napi": "^3.0.4",
     "debug": "^4.3.1"
   },
   "devDependencies": {
