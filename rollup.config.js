@@ -59,7 +59,7 @@ let external = [
   'rxjs', 'rxjs/operators', 'rxjs/websocket', 'rxjs/ajax',
 ]
 const nodeModule = [
-  'fs', 'path', 'util', 'os',
+  'assert', 'debug', 'fs', 'path', 'util', 'os',
 ]
 
 if (deps && Object.keys(deps).length) {
@@ -87,6 +87,7 @@ if (pkg.main) {
           file: pkg.main,
           amd: { id: name },
           banner,
+          exports: 'auto',
           format: 'cjs',
           globals,
           name,
