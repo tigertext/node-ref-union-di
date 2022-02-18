@@ -49,11 +49,9 @@ interface UnionType extends ref.Type {
 }
 
 /** The union type meta-constructor. */
-declare var UnionType: {
+export declare var UnionDi: {
     new (fields?: {}): UnionType;
     new (fields?: any[]): UnionType;
     (fields?: {}): UnionType;
     (fields?: any[]): UnionType;
 }
-
-export UnionType;
