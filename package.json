@@ -9,7 +9,7 @@
     "c++",
     "ffi"
   ],
-  "version": "1.0.1-tc3",
+  "version": "1.0.1-tc4",
   "author": "Anna Henningsen <anna@addaleax.net>",
   "contributors": [
     "Nathan Rajlich <nathan@tootallnate.net>"
