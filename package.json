@@ -33,7 +33,7 @@
     "build:rollup": "rollup -c rollup.config.js",
     "build:types": "shx cp -f lib/union.d.ts dist",
     "clean": "shx rm -fr dist",
-    "prepublish": "run-s build",
+    "prepublishOnly": "run-s build",
     "test": "run-s build test:rebuild test:mocha",
     "test:rebuild": "node-gyp rebuild --directory test",
     "test:mocha": "mocha --expose-gc --reporter spec"
