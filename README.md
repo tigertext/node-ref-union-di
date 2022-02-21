@@ -5,6 +5,7 @@ Fork of [node-ffi-napi/ref-union-di](https://github.com/node-ffi-napi/ref-union-
 * Add prepublishOnly script to ensure it's built before publishing
 * Change interface to `require('@tigerconnect/ref-union-di').UnionDi(ref)`
 * Bundle types from `@types/ref-union-di@1.0.0`
+* Switch `ref-napi` to `@tigerconnect/ref-napi` for node v16 support
 
 ref-union-di
 ============

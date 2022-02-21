@@ -3,7 +3,7 @@
 // Definitions by: Keerthi Niranjan <https://github.com/keerthi16>, Kiran Niranjan <https://github.com/KiranNiranjan>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-import ref = require('ref-napi');
+import ref = require('@tigerconnect/ref-napi');
 
 /**
  * This is the `constructor` of the Struct type that gets returned.

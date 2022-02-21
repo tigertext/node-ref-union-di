@@ -1,6 +1,6 @@
 
 var assert = require('assert')
-  , ref = require('ref-napi')
+  , ref = require('@tigerconnect/ref-napi')
   , Struct = require('ref-struct-di')(ref)
   , Union = require('../dist/union.cjs.js').UnionDi(ref)
   , bindings = require('node-gyp-build')(__dirname);
