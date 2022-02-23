@@ -39,7 +39,7 @@
     "test:mocha": "mocha --expose-gc --reporter spec"
   },
   "dependencies": {
-    "@tigerconnect/ref-napi": "^4.0.0-tc4",
+    "@tigerconnect/ref-napi": "^4.0.0-tc5",
     "debug": "^4.3.1"
   },
   "devDependencies": {
